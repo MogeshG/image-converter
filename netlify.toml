@@ -1,0 +1,13 @@
+# netlify.toml
+
+[build]
+  # Specify the build command and the publish directory for your Next.js app
+  command = "npm run build"
+  publish = "out" # or "build", depending on how you export the project
+
+[[redirects]]
+  # Redirect all paths to index.html
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
