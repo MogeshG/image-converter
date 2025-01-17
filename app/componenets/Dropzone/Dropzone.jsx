@@ -121,7 +121,7 @@ const DropzoneComponent = () => {
         className="flex border-2 shadow-md border-black h-[20vh] items-center bg-gray-200 rounded-md border-dashed w-[80%] justify-center"
       >
         <input {...getInputProps()} />
-        <p className="text-center">
+        <p className="text-center text-black">
           Drag & drop some files here, or click to select files
         </p>
       </div>
